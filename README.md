@@ -44,12 +44,5 @@ Clustering Details:
 # 5.0 Conclusion
 <p align="justify"> The CNN model and K-Means clustering each have strengths and limitations in detecting staff presence in video frames. The CNN model achieved high training accuracy but struggled with generalization, as evidenced by the low validation accuracy. K-Means clustering provided a viable alternative for exploring the data without the need for labels but lacks the predictive power of a well-trained CNN. Future improvements could include further tuning the CNN model to avoid overfitting, perhaps by employing techniques such as cross-validation, adding more diverse training data, or fine-tuning the model architecture.
 
-# 6.0 Recommendations
-•	Enhance Dataset Quality: More diverse and labeled training data could help the CNN model generalize better.
-•	Regularization Techniques: Techniques like dropout, weight regularization, or data augmentation should be explored further to improve validation performance.
-•	Hybrid Approach: Combining CNN with a clustering algorithm like K-Means might provide a more robust solution by leveraging the strengths of both supervised and unsupervised learning approaches.
-
-
-
 
 
