@@ -2,6 +2,8 @@
 
 <p align="justify"> This case study evaluates two methods for detecting staff presence in a video: a Convolutional Neural Network (CNN) model and K-Means clustering. The purpose of the analysis is to determine which method more accurately identifies frames containing staff members, based on labeled frame data from a sample video.
 
+![image](https://github.com/user-attachments/assets/86ceb4f5-00e3-408d-868a-757fbb5f5c18)
+
 # 2.0 Methods
 ## 2.1 Convolutional Neural Network (CNN) 
 <p align="justify"> The CNN model was trained to detect the presence of staff members in video frames. The model architecture included several convolutional layers followed by max-pooling, flattening, dense layers, and a dropout layer to reduce overfitting. The final output layer uses a sigmoid activation function for binary classification (staff present or not).
